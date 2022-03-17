@@ -14,7 +14,9 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New", monospace;
 }
-
+.btn-round{
+  border-radius: 16px !important;
+}
 /* untuk reusable css */
 @layer components {
   .btn-warning {

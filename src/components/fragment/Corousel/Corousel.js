@@ -24,7 +24,7 @@ export default function Corousel({ handleAction }) {
     <div id="indicators-carousel" className="relative" data-carousel="static">
       <div className="overflow-hidden relative h-48 rounded-lg sm:h-64 xl:h-80 2xl:h-96">
         <div className="duration-700 ease-in-out absolute inset-0 transition-all transform translate-x-0" data-carousel-item="active">
-          <img src={corousel} className="block absolute top-1/2 left-1/2 w-full -translate-x-1/2 -translate-y-1/2" alt="..."></img>
+          <img src={corousel} className="block absolute top-1/2 left-1/2 w-full h-96 -translate-x-1/2 -translate-y-1/2" alt="..."></img>
         </div>
 
         <div className="duration-700 ease-in-out absolute inset-0 transition-all transform translate-x-full" data-carousel-item="">

@@ -20,23 +20,9 @@ export default function DataBox({ handleAction }) {
   // }, [id]);
 
   return (
-    <div className="flex flex-row">
-      <div class="p-6 bg-green-200 box-border h-32 w-32 ">
-        <h5 class="mb-2 text-2xl font-bold tracking-tight text-red-500">200+</h5>
-        <p class="font-normal text-gray-500">Kunjugan Industri</p>
+      <div class="p-6 box-border h-32 w-50 ">
+        <h5 class="mb-2 text-3xl font-semibold tracking-tight text-red-500">200+</h5>
+        <p class="font-medium text-base text-gray-500">Kunjugan Industri</p>
       </div>
-      <div class="p-6 bg-green-200 box-border h-32 w-32 ">
-        <h5 class="mb-2 text-2xl font-bold tracking-tight text-red-500">30+</h5>
-        <p class="font-normal text-gray-500">Bursa Kerja</p>
-      </div>
-      <div class="p-6 bg-green-200 box-border h-32 w-32 ">
-        <h5 class="mb-2 text-2xl font-bold tracking-tight text-red-500">60+</h5>
-        <p class="font-normal text-gray-500">Guru/Siswa Magang</p>
-      </div>
-      <div class="p-6 bg-green-200 box-border h-32 w-32 ">
-        <h5 class="mb-2 text-2xl font-bold tracking-tight text-red-500">60+</h5>
-        <p class="font-normal text-gray-500">Serifikasi Online</p>
-      </div>
-    </div>
   );
 }

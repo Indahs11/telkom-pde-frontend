@@ -54,17 +54,17 @@ export default function LayoutNavbar({ children }) {
         {/*  END TOGGLE  */}
 
         <div className="hidden w-full md:block md:w-auto" id="mobile-menu">
-          <ul className="flex flex-col md:flex-row md:space-x-8 md:mt-0 md:text-sm md:font-medium bg-red-200">
+          <ul className="flex flex-col md:flex-row md:space-x-8 md:mt-0 md:text-sm md:font-medium">
             {/* NAV-LINK */}
             {sidebarContent.map(({ target, label }, i) => (
-              <li>
+              <li className="px-3 py-3">
                 <Link to={target} className="block py-2 pr-4 pl-3 text-white rounded md:bg-transparent md:text-gray-500 md:p-0 dark:text-white bg-green-200" aria-current="page">
                   {label}
                 </Link>
               </li>
             ))}
 
-            <Link to="/login" className="">
+            <Link to="/login" className="btn-round">
               <button type="button" className="btn-warning">
                 Login
               </button>
